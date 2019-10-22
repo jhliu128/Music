@@ -1,7 +1,7 @@
 {
-    "name": "WES-Music",
+    "name": "Music",
     "version": "0.0.1",
-    "description": "這是專為WES設計的Music音樂積木",
+    "description": "這是專為Music測試用的積木",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/WES-Music-strings.json"
+        "_locales/zh/Music-strings.json"
     ],
     "public": true
 }

@@ -1,6 +1,6 @@
-# WES-Music
+# Music
 
-這是專為WES設計的Music音樂積木
+這是專為測試Music用的積木
 
 ## License
 
@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-WES-Music=github:jhliu128/pxt-WES-Music
+Music=github:jhliu128/pxt-Music
 ```
