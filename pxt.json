@@ -1,7 +1,7 @@
 {
-    "name": "Music",
+    "name": "WES-Music",
     "version": "0.0.1",
-    "description": "這是專為Music測試用的積木",
+    "description": "這是專為WES設計的Music音樂積木",
     "license": "MIT",
     "dependencies": {
         "core": "*"

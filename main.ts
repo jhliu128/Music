@@ -1,11 +1,11 @@
-//% weight=0 color=#3CB371 icon="\uf8ae" block="Music"
+//% weight=0 color=#3CB371 icon="\uf8ae" block="WES-Music"
 
-namespace Music {
+namespace WES-Music {
     /**
     * 演奏 母親像月亮
     */
     //% blockId="moon" block="play moon"
-    //% blockGap=2 weight=1
+    //% blockGap=2 weight=0
     export function moon(): void {
     music.playTone(262, music.beat(BeatFraction.Whole))
     music.playTone(330, music.beat(BeatFraction.Double))
@@ -111,10 +111,10 @@ namespace Music {
 
 
    /**
-    * 演奏 魯冰花
+    * 演奏 感謝
     */
     //% blockId="thank" block="play thank"
-    //% blockGap=2 weight=1
+    //% blockGap=2 weight=2
     export function thank(): void {
     music.playTone(196, music.beat(BeatFraction.Whole))
     music.playTone(330, music.beat(BeatFraction.Whole))
@@ -224,7 +224,7 @@ namespace Music {
     * 演奏 甜蜜的家庭
     */
     //% blockId="sweat_family" block="play sweat_family"
-    //% blockGap=2 weight=1
+    //% blockGap=2 weight=3
     export function sweat_family(): void {
     music.rest(music.beat(BeatFraction.Whole))
     music.playTone(262, music.beat(BeatFraction.Half))
